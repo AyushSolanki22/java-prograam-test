@@ -37,12 +37,13 @@ git config --list    # to view all configs
 ```bash
 git clone <repo-link>       # Clone an existing repo
 git status                  # See current repo state
-pwd                         # Show current directory
+pwd/cd                      # Show current directory
 cd <folder>                 # Change directory
 mkdir <folder>              # Make new folder
+rmdir                       # Remove Folder
 ls or ls -a                 # List files
 q                           # Quit help/output
-clear                       # Clear screen
+clear/cs                    # Clear screen
 ```
 
 ---
@@ -60,6 +61,8 @@ git add <file>      # Stage file
 git add .           # Stage all files
 git commit -m "message"
 git push origin main
+
+--> git diff    # make reviewable,readable note of all changes.
 ```
 
 ---
