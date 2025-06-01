@@ -62,7 +62,9 @@ git add .           # Stage all files
 git commit -m "message"
 git push origin main
 
---> git diff    # make reviewable,readable note of all changes.
+--> git diff            # make reviewable,readable note of all changes.
+
+--> git fetch --all     # get all changes in remote directories to local directories.
 ```
 
 ---
