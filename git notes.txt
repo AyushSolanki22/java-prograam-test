@@ -1,0 +1,63 @@
+git -- version control system ,, githup - website to store & manage code using git.
+folder (repository) + read me file (optional)-(html code)
+add + commit + push
+
+*steps*
+1.- VSCode,-Git Bash(windows) or Terminal(mac) #Install,setup #to confirm installation, git --version
+2. Configuring Git -----  
+git config --global user.name "My Name"
+git config --global user.email "user@gmail.com"
+git config --list
+Terminal available in vs code, cmd, git bash
+
+3.git clone <some link>, git status, pwd/cd(current directory), cd .... (change directory), mkdir, rmdir, ls or ls -a, q (quit), clear/cls
+4. untracked(new files that git doesn't yet track), modified, staged(file is ready to be committed), unmodified
+change/new file -> add(staged) --> commit(unchanged)(it is the record of change) ---> push (upload local repo content to remote app)
+- git add <file name > or git add . (add all files)
+- git coomit -m "some message"
+- git push origin main
+
+---> git diff -to review all changes completely.
+
+5. used to create a new git repo for a file initially stored on dekstop
+git init           
+git remote add origin <link>  (Meanwhile we have to create a repo also, on github)
+git remote -v (to verify remote)
+git branch (to check branch)
+git branch -M main (to rename branch)
+git push origin main or git push -u origin main (when all files have to be pushed onto same branch,, work on same project alway s
+
+6. Branch commands
+.......
+git checkout <branch name>  (to navigate)
+git checkout -b <new branch name>  (to create a new branch)
+git branch -d <branch name> (to delete branch)
+
+7. Merging code
+git diff <branch name>   (to compare commits, branches, files & more)
+git merge <branch name>  (to merge 2 branches)
+or 
+PR (Pull Request) -- it lets you tell others about changes you've pushed to a branch ina  repository on a github
+((PR reviewed and acceptable only by senior in a company ))
+
+-- remote ke changes (like merge) ko local pee laane ke liee pull command use hoti
+git pull origin main
+--> used to fetch and download content from a remote repo and immediately update the local repo to match that content.
+	
+8. Merging conflicts
+-- Editor 
+
+9. Undoing Changes	
+i) staged changes
+   git reset <file name>
+   git reset
+ii) committed changes (for one commit)
+   git reset HEAD~1   ----- head~1 means latest commit or change
+iii) committed changes (for many commits)
+   git reset <commit hash>
+   git reset --hard <commit hash>  (reset in vs code as well as github)
+
+10. Fork
+It is a new repository that shares code and visibility settings with the original "upstream" repository
+It is a rough copy.
+
