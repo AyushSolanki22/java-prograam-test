@@ -41,7 +41,8 @@ pwd/cd                      # Show current directory
 cd <folder>                 # Change directory
 mkdir <folder>              # Make new folder
 rmdir                       # Remove Folder
-ls or ls -a                 # List files
+ls or ls -a  / dir          # List files
+cat/type                    # Shows file content
 q                           # Quit help/output
 clear/cs                    # Clear screen
 ```

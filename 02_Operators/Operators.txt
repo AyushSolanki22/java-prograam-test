@@ -1,0 +1,5 @@
+1. Arithmetic Operators (Unary/Binary/Ternary)
+2. Relational Operators
+3. Logical Operators
+4. Bitwise Operators   (Bit Manipulation)
+5. Assignment Operators

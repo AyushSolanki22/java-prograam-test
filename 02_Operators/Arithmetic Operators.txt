@@ -1,0 +1,5 @@
+@Binary Operators --> +,-,*,/,%
+
+@Unary Operators --> ++ (increment), --(decrement)
+// a=a+1 -- a++(post increment --> value change,value use) or ++a(pre increment --> old value use,value change) 
+// a=a-1 -- a--(post discrement) or --a(pre discrement)
