@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class it_calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter income (in lakhs):");
+        System.out.print("Enter income (in lakhs):");
         double income = sc.nextDouble(); // using double for decimal precision
 
         double tax = 0;
@@ -19,6 +19,6 @@ public class it_calculator {
             tax = 0.30 * income;
         }
 
-        System.out.println("Calculated tax: ₹" + tax + " lakh");
+        System.out.println("Your tax: ₹" + tax + " lakh");
     }
 }
