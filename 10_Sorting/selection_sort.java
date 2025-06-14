@@ -2,15 +2,19 @@ public class selection_sort {
     public static void selSort(int num[]) {
         int n=num.length;
         int currMin=0;
-        int minNum=Integer.MAX_VALUE;
-        
-        for (int i=0; i<n; ++i) {
-            for (int j=i; j<n; ++j) {
+        for (int i=0; i<n-1; ++i) {
+            int minNum=Integer.MAX_VALUE;  //minNum value is to be resetted every time;***###
+            int index=0;    
+            for (int j=i+1; j<n; ++j) {  //unsorted array-start --> i+1
                  currMin=num[j];
-                 minNum=currMin<minNum? currMin:minNum;
-                 index=currMin<minNum? j:0;
+                 if (currMin<minNum) {
+                    index=j;
+                    minNum=currMin;
+                 }
             }
+            int temp=num[i];
             num[i]=minNum;
+            num[index]=temp;
 
         }
 
@@ -19,5 +23,8 @@ public class selection_sort {
         int num[]={5,4,1,3,2};
 
         selSort(num);
+        for (int i=0; i<num.length; ++i) {
+            System.out.println(num[i]);
+        }
     }
 }
