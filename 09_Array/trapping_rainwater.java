@@ -1,5 +1,5 @@
 //auxiliary arrays(helper arrays) -- 2 pointer approach
-public class auxiliary_arrays {
+public class trapping_rainwater {
     public static void trappedRainwater(int b[])  {   //time complexity= 0(n)
         int n=b.length;
 

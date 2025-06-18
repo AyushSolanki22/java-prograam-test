@@ -1,0 +1,4 @@
+four pillars of OOPs: Encapsulation, Inheritance,Abstraction,Polymorphism.
+
+@Encapsulation is defined as the wrapping up of data(properties) & methods(functions) under a single unit (class). It also implements data hiding.
+(implements data hiding through access specifiers/modifiers)

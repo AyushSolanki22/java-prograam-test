@@ -1,0 +1,13 @@
+In this,
+programming using object & classes --OOPs.... how,what & why.
+way of writing code approach 
+
+@Classes & objects;
+objects- entities in yhe real world.
+classes- group of these entities. (usually a group/collection of entities inhibiting similar properties
+
+Class basically serves as a blueprint or template for creating entities. 
+It has its own attributes(properties) as well as functions(behaviour). 
+It should have same name as of the file name. Conventionally, Class name is of form of: PascalCase
+Classes except public class should be written after public class only so as to ensure no difficulty/problem in creating object.
+A program on run first sees public class, main function (by convention, main function has to be public,static (access modifiers), it is not necessary always to write access modifiers too.) 
