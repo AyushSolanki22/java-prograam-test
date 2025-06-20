@@ -36,7 +36,7 @@ public class Assignment {
         int i=1000;
         float f=3.14f;//Implicit Typecasting: computer automatically convert result into biggest datatype involved in calcutation.
         double d=99.9954;
-        double result=(f*b)+(i%c)-(d*s);
+        double result=(f*b)+(i%c)+(d*s);
         System.out.println("Result: "+result);
 
 

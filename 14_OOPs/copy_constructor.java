@@ -28,14 +28,27 @@ class Student {
     int roll;
     String password;
     int marks[]; 
-    //copy constructor
+
     Student() {
-        marks=new int[3];
+        marks=new int[3];   //it is important to initialise as immediately after the call, value update is done. 
         System.out.println("Constructor is called....");
     }
-    Student(Student s1) {
+    //shallow copy constructor
+    // Student(Student s1) {
+        // marks=new int[3];
+        // this.name=s1.name;
+        // this.roll=s1.roll; //to give new password , we basically don't copy password (we can copy everything)
+        // this.marks=s1.marks;
+    // }
+     
+    //deep copy constructor
+    Student (Student s1) {
+        marks=new int[3];
         this.name=s1.name;
-        this.roll=s1.roll; //to give new password , we basically don't copy password (we can copy everything)
-        this.marks=s1.marks;
+        this.roll=s1.roll;
+        for (int i=0; i<marks.length; ++i) {
+            this.marks[i]=s1.marks[i];
+        }
+
     }
 }

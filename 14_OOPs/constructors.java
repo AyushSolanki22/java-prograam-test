@@ -24,3 +24,4 @@ class Student {
     }
     
 }
+//3 types of constructors: parametrized , non-parametrized & copy constructor.
