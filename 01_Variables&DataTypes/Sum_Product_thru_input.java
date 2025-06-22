@@ -9,8 +9,8 @@ public class Sum_Product_thru_input {
         int sum = a + b;
         int product = a * b;
         // Print the results
-        // System.out.println("Sum: ", sum);
-        // System.out.println("Product: " , product); // Use System.err to print the product
+        // System.err.println("Sum: ", sum);
+        // System.err.println("Product: " , product); // Use System.err to print the product
         // Note: The above line will cause a compilation error. Use the following lines instead.
         System.out.println("Sum: " + sum);
         System.out.println("Product: "+ product);

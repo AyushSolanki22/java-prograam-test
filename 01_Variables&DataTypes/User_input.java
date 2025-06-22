@@ -4,13 +4,13 @@ public class User_input {
         Scanner sc = new Scanner(System.in);
         
         System.out.print("Enter a word: ");
-        String input = sc.next();          //It takes only 1 word of input
+        String input = sc.next();          //It takes only 1 word of input of String. (String input)
         System.out.println("You entered: " + input);
         
         sc.nextLine(); // Clear the buffer
         
         System.out.print("Enter a line of text: ");
-        String line = sc.nextLine();          //nextLine() -- Consume the newline character left by next()
+        String line = sc.nextLine();          //nextLine() -- take a full line till \n as input.
         System.out.println("You entered: " + line);
         
         System.out.print("Enter a number: ");
