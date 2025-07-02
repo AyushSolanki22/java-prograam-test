@@ -35,7 +35,7 @@ git config --list    # to view all configs
 
 ### 3. Basic Terminal Commands
 ```bash
-git clone <repo-link>       # Clone an existing repo
+git clone <repo-link>       # Clone an existing repo   -- it is used to get remote repository to local device.
 git status                  # See current repo state
 pwd/cd                      # Show current directory
 cd <folder>                 # Change directory
@@ -73,7 +73,8 @@ git push origin main
 ## 🚀 Starting a Project (without clone)
 ```bash
 git init                                # Initialize git in a folder
-git remote add origin <repo-link>       # Link with GitHub repo
+git remote add origin <repo-link>       # Link with GitHub repo    -- it is used to get local changes to remote repo.
+git remote rm origin                    # Remove Link with git repo
 git remote -v                           # Verify remote URL
 git branch                              # Check current branch
 git branch -M main                      # Rename branch to main
